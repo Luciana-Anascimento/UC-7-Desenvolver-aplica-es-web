@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportBlog - O Melhor do Mundo Esportivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-futbol"></i> SportBlog</h1>
+                <p>O melhor do mundo esportivo</p>
+            </div>
+            
+            <nav class="menu-principal">
+                <ul>
+                    <li><a href="#inicio" class="ativo"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="#futebol"><i class="fas fa-futbol"></i> Futebol</a></li>
+                    <li><a href="#basquete"><i class="fas fa-basketball-ball"></i> Basquete</a></li>
+                    <li><a href="#formula1"><i class="fas fa-flag-checkered"></i> Fórmula 1</a></li>
+                    <li><a href="#tenis"><i class="fas fa-baseball-ball"></i> Tênis</a></li>
+                    <li><a href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-mobile" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="conteudo-principal container">
+        <section class="destaque">
+            <h2 class="titulo-secao">Destaque do Dia</h2>
+            <article class="card-destaque">
+                <div class="imagem-destaque">
+                    <img src="https://images.unsplash.com/photo-1552674605-db6ffd8facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Jogadores de futebol comemorando gol">
+                    <span class="categoria-destaque">Futebol</span>
+                </div>
+                <div class="conteudo-destaque">
+                    <h3>Time Local Vence Clássico Histórico com Gols nos Acréscimos</h3>
+                    <p class="meta-info">Por <strong>Carlos Esportivo</strong> | 15 de Maio de 2023</p>
+                    <p>Em uma partida emocionante, o time da casa virou o placar nos minutos finais, garantindo uma vitória histórica no clássico regional. A torcida ficou em êxtase com a virada espetacular que coloca a equipe na liderança do campeonato.</p>
+                    <a href="#" class="btn-leia-mais">Leia mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+
+        <div class="conteudo-secundario">
+            <!-- Últimas Notícias -->
+            <section class="ultimas-noticias">
+                <h2 class="titulo-secao">Últimas Notícias</h2>
+                
+                <article class="card-noticia">
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1070&q=80" alt="Jogador de basquete fazendo enterrada">
+                    <div class="card-conteudo">
+                        <span class="categoria">Basquete</span>
+                        <h3>NBA: Nova Temporada Promete Muita Emoção</h3>
+                        <p class="meta-info">Por <strong>Ana Basket</strong> | 14 de Maio de 2023</p>
+                        <p>Com a temporada regular chegando ao fim, as equipes se preparam para os playoffs. Analisamos as principais candidatas ao título este ano.</p>
+                        <a href="#" class="link-noticia">Leia mais</a>
+                    </div>
+                </article>
+                
+                <article class="card-noticia">
+                    <img src="https://images.unsplash.com/photo-1517638222886-2558a3b17b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Carro de Fórmula 1 em alta velocidade">
+                    <div class="card-conteudo">
+                        <span class="categoria">Fórmula 1</span>
+                        <h3>GP do Brasil: Novas Regras para 2024</h3>
+                        <p class="meta-info">Por <strong>Pedro Veloz</strong> | 13 de Maio de 2023</p>
+                        <p>A FIA anunciou mudanças no regulamento que prometem equilibrar as forças na próxima temporada. Confira as principais alterações.</p>
+                        <a href="#" class="link-noticia">Leia mais</a>
+                    </div>
+                </article>
+                
+                <article class="card-noticia">
+                    <img src="https://images.unsplash.com/photo-1595435934247-5d33b7f92c60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Partida de tênis em quadra de saibro">
+                    <div class="card-conteudo">
+                        <span class="categoria">Tênis</span>
+                        <h3>Roland Garros: Favoritos se Encontram nas Semifinais</h3>
+                        <p class="meta-info">Por <strong>Marisa Raquete</strong> | 12 de Maio de 2023</p>
+                        <p>O torneio de Paris está na fase decisiva. As semifinais prometem duelos de altíssimo nível entre os maiores nomes do tênis mundial.</p>
+                        <a href="#" class="link-noticia">Leia mais</a>
+                    </div>
+                </article>
+                
+                <article class="card-noticia">
+                    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Corrida de atletismo">
+                    <div class="card-conteudo">
+                        <span class="categoria">Atletismo</span>
+                        <h3>Maratona Internacional: Recordes são Quebrados</h3>
+                        <p class="meta-info">Por <strong>Ricardo Corredor</strong> | 11 de Maio de 2023</p>
+                        <p>A edição deste ano da maratona internacional viu três recordes serem quebrados. Conheça os atletas que se superaram na prova.</p>
+                        <a href="#" class="link-noticia">Leia mais</a>
+                    </div>
+                </article>
+            </section>
+            
+            <!-- Barra Lateral -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3><i class="fas fa-calendar-alt"></i> Próximos Eventos</h3>
+                    <ul class="lista-eventos">
+                        <li>
+                            <span class="data-evento">18/05</span>
+                            <span class="titulo-evento">Final da Champions League</span>
+                        </li>
+                        <li>
+                            <span class="data-evento">22/05</span>
+                            <span class="titulo-evento">GP de Mônaco - Fórmula 1</span>
+                        </li>
+                        <li>
+                            <span class="data-evento">28/05</span>
+                            <span class="titulo-evento">Final da NBA - Jogo 1</span>
+                        </li>
+                        <li>
+                            <span class="data-evento">01/06</span>
+                            <span class="titulo-evento">Abertura da Copa do Mundo Feminina</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="widget">
+                    <h3><i class="fas fa-trophy"></i> Campeonatos em Destaque</h3>
+                    <div class="campeonato">
+                        <h4>Campeonato Brasileiro</h4>
+                        <ol class="classificacao">
+                            <li>Flamengo - 21 pts</li>
+                            <li>Palmeiras - 19 pts</li>
+                            <li>Atlético-MG - 18 pts</li>
+                            <li>Corinthians - 16 pts</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="campeonato">
+                        <h4>NBA - Conferência Leste</h4>
+                        <ol class="classificacao">
+                            <li>Boston Celtics</li>
+                            <li>Milwaukee Bucks</li>
+                            <li>Philadelphia 76ers</li>
+                            <li>Cleveland Cavaliers</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="widget">
+                    <h3><i class="fas fa-newspaper"></i> Newsletter</h3>
+                    <p>Receba as últimas notícias do mundo esportivo em seu e-mail.</p>
+                    <form class="form-newsletter">
+                        <input type="email" placeholder="Seu melhor e-mail" required>
+                        <button type="submit" class="btn-inscrever">Inscrever-se</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="info-rodape">
+                <div class="sobre-rodape">
+                    <h3><i class="fas fa-futbol"></i> SportBlog</h3>
+                    <p>O SportBlog é uma plataforma dedicada a trazer as últimas notícias, análises e coberturas completas do mundo esportivo. Nosso compromisso é com a informação de qualidade para todos os fãs de esporte.</p>
+                </div>
+                
+                <div class="links-rodape">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#futebol">Futebol</a></li>
+                        <li><a href="#basquete">Basquete</a></li>
+                        <li><a href="#formula1">Fórmula 1</a></li>
+                        <li><a href="#tenis">Tênis</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contato-rodape">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-envelope"></i> contato@sportblog.com</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <div class="redes-sociais">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 SportBlog - Todos os direitos reservados. Projeto acadêmico para fins educacionais.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile simples
+        document.querySelector('.menu-mobile').addEventListener('click', function() {
+            document.querySelector('.menu-principal').classList.toggle('ativo');
+        });
+        
+        // Fecha o menu ao clicar em um item (para dispositivos móveis)
+        document.querySelectorAll('.menu-principal a').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelector('.menu-principal').classList.remove('ativo');
+            });
+        });
+    </script>
+</body>
+</html>
